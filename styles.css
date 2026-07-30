@@ -448,36 +448,6 @@ h1 {
 }
 
 
-/* EB bio text */
-.eb-bio.full {
-  display: none;   /* hidden by default */
-}
-
-.card.eb-expanded .eb-bio.full {
-  display: block;  /* show when expanded */
-}
-
-.card.eb-expanded .eb-bio.short {
-  display: none;   /* hide short version */
-}
-
-/* EB toggle button */
-.eb-toggle {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background: var(--gold);
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: background 0.2s ease;
-}
-
-.eb-toggle:hover {
-  background: #b8860b; /* darker gold */
-}
-
 
 /* ===== Schedule ===== */
 .itinerary-img {
