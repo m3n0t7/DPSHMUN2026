@@ -432,7 +432,7 @@ h1 {
 
 /* ===== Executive Board Box ===== */
 .eb-box {
-  background: var(--crimson);       /* gold background */
+  background: #809E7D;       /* gold background */
   border-radius: 12px;           /* rounded corners */
   padding: 2rem;
   margin: 2rem;             /* center the box */
