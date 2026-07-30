@@ -486,8 +486,10 @@ main section {
   width: 100%;
   height: 100%;
   object-fit: cover;          /* ensures full coverage */
+  object-position: center;    /* centers the image instead of top */
   display: block;
 }
+
 
 .banner-overlay {
   position: absolute;
