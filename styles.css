@@ -233,7 +233,34 @@ h1 {
   max-height: 450px;            /* optional: keeps it from being too tall */
 }
 
+/* ===== Individual website headers ===== */
 
+
+/* Space after header */
+.page-header {
+  margin-bottom: 40px; /* adds breathing room below header */
+  max-width: 900px;
+  text-align: left;
+}
+
+/* Heading style */
+.page-header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #0a2623; /* deep green heading */
+}
+
+/* Eyebrow style */
+.page-header .eyebrow {
+  font-size: 1rem;
+  color: #0a2623; /* matches heading color */
+  margin-bottom: 20px;
+}
+
+/* Main content text color */
+main, main h2, main p, main ul {
+  color: #0a2623;
+}
 
 
 /* ===== Buttons ===== */
