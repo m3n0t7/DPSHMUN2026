@@ -42,41 +42,29 @@
 </head>
 <body>
  <!-- ===== HEADER ===== -->
-<header class="page-header">
-  <h1>United Nations Security Council</h1>
-  <p class="eyebrow">Committee Overview</p>
-  <a href="../../index.html" class="back-link">← Back to Committees</a>
-</header>
+<body>
+  <!-- ===== Top Navigation ===== -->
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="#" class="brand" data-section="home">
+        <span class="brand-mark">DPSHMUN 2026</span>
+      </a>
 
-<style>
-  .page-header {
-    margin: 60px auto 20px auto;
-    max-width: 900px;
-    text-align: left;
-  }
-  .page-header h1 {
-    font-size: 2.2rem;
-    margin-bottom: 10px;
-  }
-  .page-header .eyebrow {
-    font-size: 1rem;
-    color: var(--muted);
-    margin-bottom: 20px;
-  }
-  .back-link {
-    display: inline-block;
-    margin-bottom: 40px;
-    font-size: 0.95rem;
-    text-decoration: none;
-    color: var(--dark-green);
-    font-weight: 600;
-  }
-</style>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
-  .page-header {
-  border: 2px solid red;
-}
-
+      <nav class="main-nav" id="mainNav" aria-label="Primary">
+        <button class="nav-link active" data-section="home">Home</button>
+        <button class="nav-link" data-section="secretariat">Secretariat</button>
+        <button class="nav-link" data-section="committees">Committees</button>
+        <button class="nav-link" data-section="resources">Resources</button>
+        <button class="nav-link" data-section="allocations">Allocations</button>
+        <button class="nav-link" data-section="faqs">FAQs</button>
+        <button class="nav-link" data-section="contact">Contact</button>
+      </nav>
+    </div>
+  </header>
   
   <!-- ===== MAIN CONTENT ===== -->
   <main class="container">
