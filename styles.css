@@ -237,24 +237,30 @@ h1 {
 
 /* Page header container */
 .page-header {
-  display: flex;
-  justify-content: flex-end;   /* pushes title to the right */
-  margin-bottom: 40px;         /* space below header */
+  margin-bottom: 40px; /* space below header */
   max-width: 900px;
+  text-align: left;
 }
 
 /* Title */
 .page-header h1 {
   font-size: 2.2rem;
-  color: #0a2623;
-  margin: 0;
+  color: #0a2623; /* deep green */
+  margin: 0 0 10px 0; /* space below title */
 }
 
-/* Subtitle ("About the Committee") */
-.page-header .about-heading {
-  font-size: 1.2rem;
-  color: #0a2623;
-  margin: 0; /* keep it tight */
+/* Back link */
+.page-header .back-link {
+  display: block;       /* forces link below title */
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: #0a2623;       /* matches theme */
+  font-weight: 600;
+  margin-top: 5px;      /* small gap below title */
+}
+
+.page-header .back-link:hover {
+  text-decoration: underline; /* subtle hover effect */
 }
 
 /* Main content text color */
