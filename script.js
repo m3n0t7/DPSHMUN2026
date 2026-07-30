@@ -138,20 +138,6 @@ function renderSites() {
 
 renderSites();
 
-/*--------- EB more button --------*/
-
-<script>
-document.querySelectorAll('.eb-toggle').forEach(btn => {
-  btn.addEventListener('click', () => {
-    const card = btn.closest('.card');
-    card.classList.toggle('eb-expanded');
-    btn.textContent = card.classList.contains('eb-expanded') ? 'Show Less' : 'Read More';
-  });
-});
-</script>
-
-
-
 
 /* ----- Allocations Data ----- */
 
