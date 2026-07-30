@@ -138,6 +138,33 @@ function renderSites() {
 
 renderSites();
 
+/* ---------- Background Guides Data ---------- */
+const BACKGROUND_GUIDES = [
+  { title: "UNHRC Guide", desc: "Background guide for the Human Rights Council.", link: "unhrc.html" },
+  { title: "UNSC Guide", desc: "Background guide for the Security Council.", link: "unsc.html" },
+  { title: "WHO Guide", desc: "Background guide for the World Health Organization.", link: "who.html" },
+  { title: "UNDP Guide", desc: "Background guide for the Development Programme.", link: "undp.html" }
+];
+
+function renderBackgroundGuides() {
+  const grid = document.getElementById("guidesGrid");
+  if (!grid) return;
+
+  BACKGROUND_GUIDES.forEach(g => {
+    const card = document.createElement("a");
+    card.className = "card";
+    card.href = g.link;
+    card.target = "_blank";
+    card.innerHTML = `
+      <h3>${g.title}</h3>
+      <p>${g.desc}</p>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+renderBackgroundGuides();
+
 
 /* ----- Allocations Data ----- */
 
