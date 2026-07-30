@@ -237,7 +237,7 @@ h1 {
 
 /* Page header container */
 .page-header {
-  margin-bottom: 40px; /* space below header */
+  margin: 60px auto 40px auto; /* top spacing + space below header */
   max-width: 900px;
   text-align: left;
 }
