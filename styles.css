@@ -235,33 +235,31 @@ h1 {
 
 /* ===== Individual website headers ===== */
 
-
-/* Space after header */
 .page-header {
-  margin-bottom: 40px; /* adds breathing room below header */
+  margin-bottom: 40px;
   max-width: 900px;
   text-align: left;
 }
 
-/* Heading style */
 .page-header h1 {
   font-size: 2.2rem;
   margin-bottom: 10px;
-  color: #0a2623; /* deep green heading */
+  color: #0a2623;
 }
 
-/* Eyebrow style */
 .page-header .eyebrow {
   font-size: 1rem;
-  color: #0a2623; /* matches heading color */
+  color: #0a2623;
   margin-bottom: 20px;
 }
 
-/* Main content text color */
 main, main h2, main p, main ul {
   color: #0a2623;
 }
 
+main section {
+  margin-bottom: 60px; /* spacing between sections */
+}
 
 /* ===== Buttons ===== */
 .btn {
