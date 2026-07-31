@@ -505,6 +505,28 @@ main section {
   font-size: 1.05rem;
 }
 
+.divider-heading {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0 20px 0;
+  width: 100%;
+}
+
+.divider-heading::before,
+.divider-heading::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid var(--dark-green);
+}
+
+.divider-heading span {
+  padding: 0 15px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--dark-green);
+}
+
 
 /* ===== Committee Banner Section ===== */
 .committee-banner {
