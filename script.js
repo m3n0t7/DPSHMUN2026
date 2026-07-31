@@ -2,28 +2,12 @@
    DPSHMUN 2026 — site interactions
    Plain vanilla JavaScript, no dependencies.
 ============================================================ */
-
-const coreGrid = document.getElementById("coreSecretariatGrid");
-const secGrid = document.getElementById("secretariatGrid");
-   
+   const SECRETARIAT = [
    { role: "Secretary-General", name: "Pritha Kesharwani", grade: "Grade 12", bio: "Pritha Kesharwani is a 12th-grade student at DPSH.  Having attended a considerable number of MUNs in various capacities, Pritha still sees every conference as a chance to learn something new and improve. Besides MUNs she enjoys critically analyzing current affairs and news and getting into political debates. Known for her bubbly personality and affinity towards social interactions, she brings enthusiasm to every space she is part of. She looks forward to making the most of this opportunity of serving Secretary General at DPSH MUN 2026 and ensuring an optimum delegate experience.", image: "secretariat/Pritha Kesharwani.jpeg" },
    { role: "Deputy Secretary-General", name: "Kaynat Gupta", grade: "Grade 12", bio: "Kaynat Gupta, a student of grade 12 at DPSH as a leader who tries to be the voice, from being delegate affairs for three years at different conferences to Dy. Sec gen with utmost gratitude. Kaynat showcases interests in design, ethics and communication all while believing in the essence of combining human psychology, structure yet enhancing creative freedom. Her leadership is portrayed in everyday tasks which require initiative and getting work done with precision. Kaynat enjoys unhealthy amounts of good iced coffees and rewatching sitcoms (himym & psych) just trying to figure out everything around her with humour. Kaynat hopes this conference runs smoothly while  being open to helping any delegate,  excited to make this conference ‘legend wait for it dary’.", image: "secretariat/Kaynat.jpeg" },
    { role: "Director-General", name: "Anirudh Sai Bhimrao", grade: "Grade 12", bio: "Anirudh Sai Bhimrao is a 12th grader from DPSH with extensive experience in MUN conferences, where he has earned numerous awards. Representing his school, district, and the state of Telangana, Anirudh is known for his exceptional basketball skills and also serves as the School Sports Captain, while remaining a dedicated MPC student recognized for his academic excellence. Aspiring to do it all, he balances academics and extracurriculars with enthusiasm. Despite his rigorous schedule, as a passionate cinephile, you’ll always find him watching the latest Telugu movies and enjoying sitcoms. He’s honoured to serve as the Director General and strives to provide the best experience to all the delegates.", image: "secretariat/Anirudh.JPG" },
    { role: "Charge D'Affaires", name: "Mahika Tyagi", grade: "Grade 12", bio: "Mahika Tyagi, a 12th grader at DPS Hyderabad, entered the MUN circuit four years ago and has since participated in numerous conferences, winning several awards and earning recognition for her energetic and passionate debating. With a deep commitment to international relations and human rights, she loves fighting for what’s right. Outside the world of MUNs, Mahika can often be found raving about Formula 1 or acting like Spotify is her second home. A proud extrovert, she’s always up for meeting new people, making terrible jokes, and somehow finding someone to laugh at them. As Charge D’Affaires, she’s committed to ensuring that this edition of DPSH MUN is both a meaningful and enjoyable experience for every delegate.", image: "secretariat/Mahika.jpg" },
    { role: "Deputy Charge D'Affaires", name: "Akshaini Sinha", grade: "Grade 12", bio: "Akshaini Sinha, a Grade 12 student at DPS Hyderabad, steps into the role of Deputy Charge d’Affaires for DPSH MUN 2026. Having grown through her MUN journey, she brings both composure and wit to the Secretariat, ensuring that delegates feel supported while never letting the atmosphere get too serious. Akshaini believes that conferences run best when professionalism is paired with warmth and laughter, and ensures that every delegate feels included and supported. Beyond academics, she enjoys creative projects and memorable experiences, reflecting her belief that diplomacy is not only about rules but also about building connections.She is excited to welcome you to DPSH MUN 2026 and looks forward to making this edition both professional and memorable.", image: "secretariat/Akshaini.jpg" },
-
-   SECRETARIAT.slice(0, 5).forEach(member => {
-  const card = document.createElement("div");
-  card.className = "card";
-  card.innerHTML = `
-    <h3>${member.role}</h3>
-    <p><strong>${member.name}</strong></p>
-    <p>${member.grade}</p>
-    <p>${member.bio}</p>
-  `;
-  coreGrid.appendChild(card);
-});
-   
    { role: "USG, Policy", name: "Sutanu Datta", grade: "Grade 11", bio: "Sutanu, a Grade 11 student, has been actively part of the MUN circuit for a while now, having represented various committees. As USG Policy, his focus is on making sure the debate stays sharp, the research stays credible, and every delegate walks away having genuinely learned something with great confidence.Outside MUN, he keeps things pretty simple: football, gaming, and just unwinding when he gets the chance. He believes good communication is at the heart of both good diplomacy and good conversation, and he's looking forward to bringing that energy to this conference.", image: "secretariat/Sutanu.JPG" },
    { role: "USG, Policy", name: "Tanish Reddy Panga", grade: "Grade 12", bio: "Meet Tanish Reddy, a Grade 12 Commerce student serving as USG of Policy at this year's DPSH MUN. The role demands strong research and analytical skills, excellent communication, prior leadership experience in MUN, and the ability to work under strict deadlines without compromising on quality, With over multiple  MUN conferences of hands-on experience across the Hyderabad and Bangalore circuits, he brings sharp analytical thinking and a genuine passion for diplomacy to the table. He values every delegate's perspective and thrives on collaborative problem-solving, all while staying calm and composed under pressure. His strong sense of discipline shines through in his ability to consistently deliver within given deadlines. Through his leadership, Tanish aims to make this year's policy discussions well-researched, innovative, and truly memorable for every delegate.", image: "secretariat/Tanish.jpeg" },
    { role: "USG, Delegate Affairs", name: "Aarav Pandey", grade: "Grade 11", bio: "Meet Aarav Pandey - an 11th grader dedicated to the MUN Circuit and making every MUN better. Using his experience from other fields, he hopes to make DPSHMUN as good as possible. Being a sportsperson, he believes that strong communication and team work can elevate any experience. Through DPSHMUN, he hopes to make a strong impact in the MUN circuit through his unique ideas and great work ethic. When he’s not going to MUNs, he’s busy playing basketball or watching football. He hopes to make this year’s DPSHMUN the best it can be.", image: "secretariat/Aarav.JPG" },
@@ -39,18 +23,7 @@ const secGrid = document.getElementById("secretariatGrid");
    { role: "USG, Technology", name: "Devna Menoth", grade: "Grade 12", bio: "Devna is a Grade 12 science student at DPS Hyderabad with a deep passion for artificial intelligence and technology. Her interests lie in developing AI projects and designing websites that are both creative and functional, skills she is excited to bring to her role as the USG of Technology for DPSHMUN 2026. Beyond academics, she is a Second Dan Black Belt in Karate, a journey that has instilled discipline, resilience, and leadership. With a keen eye for detail and a drive to innovate, Devna is dedicated to using technology to create a seamless and engaging experience for everyone at DPSHMUN 2026.  ", image: "secretariat/Devna.jpeg" },
    { role: "Head of Organising Committee", name: "Ashrisha Sinha", grade: "Grade 12", bio: "Ashrisha, a Grade 12 student in the BiPC stream, is all set to play the role of Head of Organizing Committee with a strong foundation in Model United Nations. Having served as both a delegate and a member of the Executive Board, she brings experience, enthusiasm, and a deep understanding of delegate dynamics to the Secretariat.Outside the MUN circuit,she’s known for her vibrant energy, attention to detail, and her drive to be an all-rounder in all sense. Outside the mun world, Ashrisha often enjoys rom-coms and laughing to death while watching sit-comsShe’s thrilled to be part of DPSH MUN 2026 and looks forward to making this edition unforgettable.", image: "secretariat/Ashrisha.jpg" },
    { role: "Head of Organising Committee", name: "Palak", grade: "Grade 11", bio: "Meet Palak, a Class 11 Commerce student at Delhi Public School, Hyderabad. Her leadership, strong communication skills, and dedication has earned her the position of OC Head not once, but thrice across different MUNs. Having been actively involved in the MUN circuit for several years, she has received multiple mentions for her work as a journalist. Palak is thrilled to be a part of DPSHMUN’26 and looks forward to giving her best  and making the most of every opportunity that comes her way.", image: "secretariat/Palak.jpg" }
-
-SECRETARIAT.slice(5).forEach(member => {
-  const card = document.createElement("div");
-  card.className = "card";
-  card.innerHTML = `
-    <h3>${member.role}</h3>
-    <p><strong>${member.name}</strong></p>
-    <p>${member.grade}</p>
-    <p>${member.bio}</p>
-  `;
-  secGrid.appendChild(card);
-});
+];
 const COMMITTEES = [
   { abbr: "UNSC", name: "United Nations Security Council", page: "committees/unsc.html", image: "logos/unsc.png"},
   { abbr: "UNHRC", name: "United Nations Human Rights Council", page: "committees/unhrc.html", image: "logos/unhrc.png" },
