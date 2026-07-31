@@ -218,6 +218,46 @@ h1 {
   margin-top: 1rem;
 }
 
+/* ===== Countdown Banner ===== */
+.countdown-section {
+  background-color: #ddd2e3;   /* slim banner color */
+  padding: 20px 0;
+  margin: 40px 0;              /* acts as divider between sections */
+  border-radius: 12px;         /* curved edges */
+  text-align: center;
+}
+
+.countdown-section h2 {
+  color: #0a2623;              /* dark heading for contrast */
+  margin-bottom: 20px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#countdown div {
+  background: #0a2623;         /* dark boxes */
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  min-width: 80px;
+}
+
+#countdown span {
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: block;
+}
+
+#countdown p {
+  margin: 0;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
 
 
 /* ===== Secretariat Group Picture ===== */
