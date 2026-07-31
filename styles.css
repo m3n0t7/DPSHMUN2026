@@ -638,13 +638,14 @@ main section {
 
 /* ===== Video Guides Section Banner ===== */
 .video-guides-section {
-  background-color: #0a2623;   /* crisp rectangle banner */
+  background-color: #ddd2e3;   /* new banner color */
   padding: 30px 0;             /* slim vertical padding */
   margin: 0;                   /* no extra spacing outside */
+  border-radius: 12px;         /* curved edges */
 }
 
 .video-guides-section h2 {
-  color: #ffffff;              /* make title visible on dark background */
+  color: #0a2623;              /* dark text for contrast */
   text-align: center;
   margin-bottom: 20px;         /* small gap before cards */
 }
