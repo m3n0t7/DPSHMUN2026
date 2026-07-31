@@ -72,7 +72,7 @@
     <p><strong>Debate. Discuss. Deliberate.</strong></p>
     </div>
 
-    <!-- ===== Countdown Banner ===== -->
+   <!-- ===== Countdown Banner ===== -->
 <section class="countdown-section">
   <h2>Conference Countdown</h2>
   <div id="countdown">
@@ -82,6 +82,42 @@
     <div><span id="seconds">00</span><p>Seconds</p></div>
   </div>
 </section>
+
+<!-- ===== Other Sections (e.g., Letter from Sec Gen) ===== -->
+<h2 class="secgen-heading">Letter from the Secretary General</h2>
+<div class="secgen-card">
+  <!-- content here -->
+</div>
+
+<!-- ===== JS Countdown Logic ===== -->
+<script>
+  // Target date: 7 August 2026, 8:00 AM IST
+  const targetDate = new Date("August 7, 2026 08:00:00").getTime();
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    if (distance < 0) {
+      document.getElementById("countdown").innerHTML = "Conference in Progress!";
+      return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("days").innerText = days;
+    document.getElementById("hours").innerText = hours;
+    document.getElementById("minutes").innerText = minutes;
+    document.getElementById("seconds").innerText = seconds;
+  }
+
+  setInterval(updateCountdown, 1000);
+</script>
+</body>
+</html>
 
   
   <h2 class="secgen-heading">Letter from the Secretary General</h2> 
