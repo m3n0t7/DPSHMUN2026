@@ -220,44 +220,43 @@ h1 {
 
 /* ===== Countdown Banner ===== */
 .countdown-section {
-  background-color: #ddd2e3;   /* slim banner color */
-  padding: 20px 0;
-  margin: 40px 0;              /* acts as divider between sections */
-  border-radius: 12px;         /* curved edges */
+  background-color: #0a2623;   /* dark green banner */
+  padding: 30px 0;
+  margin: 40px 0;
   text-align: center;
+  border-radius: 12px;         /* curved banner edges */
 }
 
 .countdown-section h2 {
-  color: #0a2623;              /* dark heading for contrast */
+  color: #ffffff;              /* white heading for contrast */
   margin-bottom: 20px;
 }
 
 #countdown {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
 }
 
-#countdown div {
-  background: #0a2623;         /* dark boxes */
-  color: #fff;
+.count-box {
+  background: #ffffff;         /* white box */
+  color: #000000;              /* black text inside */
   padding: 15px 20px;
-  border-radius: 8px;
-  min-width: 80px;
+  border-radius: 8px;          /* curved box edges */
+  min-width: 90px;
 }
 
-#countdown span {
+.count-box span {
   font-size: 1.8rem;
   font-weight: bold;
   display: block;
 }
 
-#countdown p {
+.count-box p {
   margin: 0;
   font-size: 0.9rem;
   text-transform: uppercase;
 }
-
 
 
 /* ===== Secretariat Group Picture ===== */
