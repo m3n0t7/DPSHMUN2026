@@ -606,6 +606,37 @@ main section {
   color: var(--muted);
 }
 
+/* ===== Resources Row (Schedule + Dress Code) ===== */
+.resources-row {
+  display: flex;
+  justify-content: center;   /* centers the items horizontally */
+  gap: 40px;                 /* space between schedule and dress code */
+  margin: 20px 0;
+  flex-wrap: wrap;           /* allows stacking on small screens */
+}
+
+.resource-item {
+  text-align: center;
+  flex: 1;                   /* makes them evenly sized */
+  max-width: 300px;          /* prevents them from stretching too wide */
+}
+
+.resource-img {
+  max-width: 250px;          /* controls image size */
+  height: auto;              /* keeps proportions */
+  border-radius: 8px;        /* optional rounded corners */
+  box-shadow: var(--shadow); /* matches your card style */
+  display: block;
+  margin: 0 auto 10px auto;  /* centers image and adds spacing below */
+}
+
+.resource-item p {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--olive-light); /* matches your theme */
+}
+
+
 /* ===== FAQs ===== */
 .faq-list {
   display: grid;
