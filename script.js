@@ -1032,7 +1032,7 @@ const ALLOCATIONS =  [
   },
   {
     Committee: "UNCSW",
-    Country : "Ukraine",
+    Country : "Afghanistan (initially Ukraine)",
     Name: "Soham Satpathy",
     Class: "10E"
   },
