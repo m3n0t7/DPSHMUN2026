@@ -700,8 +700,8 @@ main section {
 /* ===== Video Guides Section Banner ===== */
 .video-guides-section {
     background-color: #ddd2e3;      /* purple box */
-    padding: 30px 0 15px 0;         /* 30px top, 15px bottom */
-    margin: 0 0 40px 0;             /* adds space below box */
+    padding: 30px 0 7px 0;         /* 30px top, 15px bottom */
+    margin: 0 0 50px 0;             /* adds space below box */
     border-radius: 12px;
 }
 
