@@ -235,19 +235,19 @@ h1 {
 #countdown {
   display: flex;
   justify-content: center;
-  gap: 35px;
+  gap: 30px;
 }
 
 .count-box {
   background: var(--bg);         /* beige box */
   color: var(--dark-green);              /* dark green text inside */
-  padding: 25px 30px;
+  padding: 25px 25px;
   border-radius: 8px;          /* curved box edges */
   min-width: 90px;
 }
 
 .count-box span {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
   display: block;
 }
@@ -568,7 +568,7 @@ main section {
 }
 
 .banner-content h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   margin-top: 1rem;
 }
