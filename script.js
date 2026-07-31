@@ -3228,6 +3228,22 @@ const FAQS = [
     question: "What are the conference dates and venue?",
     answer: "DPSHMUN 2026 takes place on August 7 and 8 at Delhi Public School, Hyderabad. Check the Resources page for detailed timings."
   },
+   {
+    question: "Will lunch be provided?",
+    answer: "While the school will provide snack boxes, delegates are advised to bring their own lunch and snacks."
+  },
+  {
+    question: "Will school transport be available?",
+    answer: "For the delegates who have opted for it, school transport will be provided. However, school transport is not available for those who have opted for own transport."
+  },
+  {
+    question: "Are delegates allowed to carry makeup or personal items?",
+    answer: "Delegates are strongly advised to refrain from carrying makeup products, perfumes, or similar personal items to the conference. Possession of any prohibited items will result in strict disciplinary action. The school will not be responsible for the loss or safekeeping of any personal belongings."
+  },
+   {
+    question: "Will all participants receive a participation certificate?",
+    answer: "Yes, all delegates who attend the conference on both the days will receive an e-participation certificate on their emails."
+  },
   {
     question: "What is the dress code?",
     answer: "The dress code for the conference requires business formals on day one and Indian traditionals on day two. More information can be accessed on the Resources page."
