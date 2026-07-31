@@ -3230,7 +3230,7 @@ const FAQS = [
   },
    {
     question: "Will lunch be provided?",
-    answer: "While the school will provide snack boxes, delegates are advised to bring their own lunch and snacks."
+    answer: "Participants are requested to carry their own breakfast, lunch, and water bottles. However, a snack box will be provided to all delegates during the conference."
   },
   {
     question: "Will school transport be available?",
@@ -3242,7 +3242,7 @@ const FAQS = [
   },
    {
     question: "Will all participants receive a participation certificate?",
-    answer: "Yes, all delegates who attend the conference on both the days will receive an e-participation certificate on their emails."
+    answer: "Yes, all participants who attend both days of the conference will receive an official e-certificate recognizing their contribution."
   },
   {
     question: "What is the dress code?",
