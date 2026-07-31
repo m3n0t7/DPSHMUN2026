@@ -532,7 +532,7 @@ main section {
 .committee-banner {
   position: relative;
   width: 100%;
-  height: 300px;              /* adjust height per design */
+  height: 350px;              /* adjust height per design */
   margin-bottom: 2rem;
 }
 
