@@ -38,6 +38,7 @@ const COMMITTEES = [
   { abbr: "ECOSOC", name: "The United Nations Economic and Social Council ", page: "committees/ecosoc.html", image: "logos/ecosoc.png" },
   { abbr: "Junior UNCSW", name: "The Junior United Nations Commission on the Status of Women", page: "committees/juncsw.html", image: "logos/juncsw.png" },
   { abbr: "Junior UNHRC", name: "The Junior United Nations Human Rights Council", page: "committees/junhrc.html", image: "logos/junhrc.png" }
+   ];
    
 
 const grid = document.getElementById("committeesGrid");
