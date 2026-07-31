@@ -445,7 +445,7 @@ const ALLOCATIONS =  [
   {
     Committee: "UNHRC",
     Country : "Republic of Ghana",
-    Name: "Manvik Sharma",
+    Name: "Karnati Tanya Krishna",
     Class: "9G"
   },
   {
@@ -949,8 +949,8 @@ const ALLOCATIONS =  [
   {
     Committee: "UNCSW",
     Country : "Mongolia",
-    Name: "Akarapu Mayukha",
-    Class: "11D"
+    Name: "Sannadi Ganesh Krishna Sai Reddy",
+    Class: "8I"
   },
   {
     Committee: "UNCSW",
@@ -2473,8 +2473,8 @@ const ALLOCATIONS =  [
   {
     Committee: "INTERPOL",
     Country : "State of Qatar",
-    Name: "Sannadi Ganesh Krishna Sai reddy ",
-    Class: "8I"
+    Name: "Akarapu Mayukha",
+    Class: "11D"
   },
   {
     Committee: "INTERPOL",
