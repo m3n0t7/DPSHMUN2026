@@ -72,24 +72,17 @@
     <p><strong>Debate. Discuss. Deliberate.</strong></p>
     </div>
 
-   <!-- ===== Countdown Banner ===== -->
+  <!-- ===== Countdown Banner ===== -->
 <section class="countdown-section">
   <h2>Conference Countdown</h2>
   <div id="countdown">
-    <div><span id="days">00</span><p>Days</p></div>
-    <div><span id="hours">00</span><p>Hours</p></div>
-    <div><span id="minutes">00</span><p>Minutes</p></div>
-    <div><span id="seconds">00</span><p>Seconds</p></div>
+    <div class="count-box"><span id="days">00</span><p>Days</p></div>
+    <div class="count-box"><span id="hours">00</span><p>Hours</p></div>
+    <div class="count-box"><span id="minutes">00</span><p>Minutes</p></div>
+    <div class="count-box"><span id="seconds">00</span><p>Seconds</p></div>
   </div>
 </section>
 
-<!-- ===== Other Sections (e.g., Letter from Sec Gen) ===== -->
-<h2 class="secgen-heading">Letter from the Secretary General</h2>
-<div class="secgen-card">
-  <!-- content here -->
-</div>
-
-<!-- ===== JS Countdown Logic ===== -->
 <script>
   // Target date: 7 August 2026, 8:00 AM IST
   const targetDate = new Date("August 7, 2026 08:00:00").getTime();
@@ -99,7 +92,8 @@
     const distance = targetDate - now;
 
     if (distance < 0) {
-      document.getElementById("countdown").innerHTML = "Conference in Progress!";
+      document.getElementById("countdown").innerHTML =
+        "<p style='color:white;font-size:1.2rem;'>Conference in Progress!</p>";
       return;
     }
 
@@ -116,8 +110,7 @@
 
   setInterval(updateCountdown, 1000);
 </script>
-</body>
-</html>
+
 
   
   <h2 class="secgen-heading">Letter from the Secretary General</h2> 
