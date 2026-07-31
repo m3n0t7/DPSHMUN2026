@@ -636,6 +636,19 @@ main section {
   color: var(--olive-light); /* matches your theme */
 }
 
+/* ===== Video Guides Banner ===== */
+.video-guides-banner {
+  background-color: #0a2623;   /* dark green banner */
+  padding: 40px 20px;          /* space around the cards */
+  border-radius: 12px;         /* optional rounded corners */
+}
+
+.video-guides-banner .card {
+  background: var(--surface);  /* keep your card style */
+  color: var(--olive-light);   /* text color inside cards */
+  box-shadow: var(--shadow);   /* matches other cards */
+}
+
 
 /* ===== FAQs ===== */
 .faq-list {
