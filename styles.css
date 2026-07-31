@@ -735,6 +735,7 @@ main section {
 }
 
 .faq-question {
+  font-size:  1.3rem;
   padding: 20px;
   cursor: pointer;
   display: flex;
@@ -777,7 +778,7 @@ main section {
   overflow: hidden;
   transition: all 0.3s ease;
   color: var(--black);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
