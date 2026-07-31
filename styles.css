@@ -699,10 +699,10 @@ main section {
 
 /* ===== Video Guides Section Banner ===== */
 .video-guides-section {
-  background-color: #ddd2e3;   /* new banner color */
-  padding: 30px 0;             /* slim vertical padding */
-  margin: 0;                   /* no extra spacing outside */
-  border-radius: 12px;         /* curved edges */
+    background-color: #ddd2e3;      /* purple box */
+    padding: 30px 0 15px 0;         /* 30px top, 15px bottom */
+    margin: 0 0 40px 0;             /* adds space below box */
+    border-radius: 12px;
 }
 
 .video-guides-section h2 {
