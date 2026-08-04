@@ -3234,7 +3234,7 @@ const FAQS = [
   },
   {
     question: "Will school transport be available?",
-    answer: "For the delegates who have opted for it, school transport will be provided. However, school transport is not available for those who have opted for own transport."
+    answer: "Yes, school transport will be available only for students who already avail DPSH school transport on regular school days and pay transport fees each term. OT students will have to arrange their own transport."
   },
   {
     question: "Are delegates allowed to carry makeup or personal items?",
