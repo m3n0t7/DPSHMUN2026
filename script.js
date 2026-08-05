@@ -2575,8 +2575,8 @@ const ALLOCATIONS =  [
   {
     Committee: "AIPPM",
     Country : "Dharmendra Pradhan — Bharatiya Janata Party (BJP)",
-    Name: "PONUGOTI KRUTHI HASINI RAO ",
-    Class: "11H"
+    Name: "Koritela Akshara",
+    Class: "8D"
   },
   {
     Committee: "AIPPM",
@@ -2779,8 +2779,8 @@ const ALLOCATIONS =  [
   {
     Committee: "AIPPM",
     Country : "D.K. Shivakumar— Indian National Congress (INC)",
-    Name: "Koritela Akshara",
-    Class: "8D"
+    Name: "PONUGOTI KRUTHI HASINI RAO",
+    Class: "11H"
   },
   {
     Committee: "IP",
